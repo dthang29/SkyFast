@@ -1,7 +1,7 @@
 package com.example.worldtravel.constant;
 
 public enum Role {
-    USER,
+    CUSTOMER,
     ADMIN,
     STAFF,
     MANAGER
