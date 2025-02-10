@@ -1,13 +1,13 @@
-package com.example.worldtravel;
+package com.example.skyfast;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WorldTravelApplication {
+public class SkyFastApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WorldTravelApplication.class, args);
+        SpringApplication.run(SkyFastApplication.class, args);
     }
 
 }

@@ -1,11 +1,11 @@
-package com.example.worldtravel.repository;
+package com.example.skyfast.repository;
 
-import com.example.worldtravel.entity.User;
+import com.example.skyfast.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
-    User findByUsername(String username);
     User findByEmail(String email);
-    User findByUsernameAndPassword(String username, String password);
     User findByEmailAndPassword(String email, String password);
 }

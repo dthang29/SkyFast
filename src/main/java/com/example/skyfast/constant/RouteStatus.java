@@ -1,4 +1,4 @@
-package com.example.worldtravel.constant;
+package com.example.skyfast.constant;
 
 public enum RouteStatus {
     ACTIVE,
