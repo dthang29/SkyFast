@@ -1,10 +1,10 @@
-package com.example.worldtravel;
+package com.example.skyfast;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WorldTravelApplicationTests {
+class SkyFastApplicationTests {
 
     @Test
     void contextLoads() {

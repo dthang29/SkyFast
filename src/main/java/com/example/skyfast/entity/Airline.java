@@ -1,4 +1,4 @@
-package com.example.worldtravel.entity;
+package com.example.skyfast.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
@@ -14,24 +14,26 @@ import java.time.LocalDate;
 @Table(name = "airline")
 public class Airline {
     @Id
-    @Column(name = "airline_id", nullable = false)
+    @Column(name = "Id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Size(max = 255)
     @NotNull
-    @Column(name = "airline_name", nullable = false)
+    @Column(name = "AirlineName", nullable = false)
     private String airlineName;
 
     @Size(max = 255)
     @NotNull
-    @Column(name = "country", nullable = false)
+    @Column(name = "Country", nullable = false)
     private String country;
 
-    @Column(name = "founded_date")
+    @NotNull
+    @Column(name = "FoundedDate", nullable = false)
     private LocalDate foundedDate;
 
-    @Column(name = "aircraft_number")
-    private Integer aircraftNumber;
+    @NotNull
+    @Column(name = "FleetSize", nullable = false)
+    private Integer fleetSize;
 
 }
